@@ -1,0 +1,27 @@
+# fly.toml app configuration file generated for mysql-spring-snow-2484 on 2024-10-08T10:30:50+07:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'mysql-spring-snow-2484'
+primary_region = 'sin'
+
+[build]
+  image = 'mysql:8'
+
+[processes]
+  app = """--datadir /data/mysql \
+    --default-authentication-plugin mysql_native_password"""
+  
+[mounts]
+  source = "mysqldata"
+  destination = "/data"
+
+[env]
+  MYSQL_DATABASE = "zena"
+  MYSQL_USER = "root"
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1
