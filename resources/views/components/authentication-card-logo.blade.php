@@ -1,5 +1,6 @@
 <a href="/">
     <div class="text-gray-800 font-semibold">
-        <span class="text-yellow-500 text-3xl">&lt;YELO&gt;</span> Code
+    <span class="text-yellow-500 font-bold">Z</span><span class="text-gray-600">ena</span> <span class="text-gray-900">
+    News</span>
     </div>
 </a>
