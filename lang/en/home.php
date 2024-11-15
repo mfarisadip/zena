@@ -3,9 +3,9 @@
 
 return [
 
-    'featured_posts' => 'Featured Posts',
-    'latest_posts' => 'Latest Posts',
-    'more_posts' => 'More Posts',
+    'featured_posts' => 'Postingan Unggulan',
+    'latest_posts' => 'Postingan Terakhir',
+    'more_posts' => 'Lebih Banyak',
 
     'hero' => [
         'title' => 'Welcome to',

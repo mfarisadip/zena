@@ -28,7 +28,7 @@ class HomeController extends Controller
 
         return view('home', [
             'featuredPosts' => $featuredPosts,
-            'latestPosts' => $latestPosts
+            'latestPosts' => $latestPosts,
         ]);
     }
 }
